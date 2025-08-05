@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deligero Construction</title>
+    <link rel="stylesheet" href="getStartedStyles.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <section class="bg-img">
+        <div class="tint">
+            <header>
+            <a href="index.html#Home" id="navbar_logo"><img src="Images/Logo/365264713_960297118537697_6022364051131914289_n-removebg-preview.png" alt="Logo"></a>
+                <nav class="navbar">
+                    <ul class="navbar_menu">
+                        <li class="navbar_items">
+                            <a href="index.html#projects" class="navbar_links">Projects</a>
+                        </li>
+                        <li class="navbar_items">
+                            <a href="index.html#aboutUs" class="navbar_links">About us</a>
+                        </li>
+                        <li class="navbar_items">
+                            <a href="index.html#services" class="navbar_links">What we offer</a>
+                        </li>
+                        <li class="navbar_items">
+                            <a href="index.html#aboutUs" class="navbar_links">Contact</a>
+                        </li>
+                    </ul>
+                    <a href="index.html#quote">
+                        <button class="get_a_quote">Get a quote</button>
+                    </a>
+                </nav>
+
+                <h2>Request a Quote</h2>
+
+            </header>
+
+            <div class="Get_Started_Quote">
+                <form id="GetStartedQuote">
+                    <div class="input-group full-width">
+                            <label for="first-name">Full Name</label>
+                            <input name="name" id="first-name" type="text" placeholder="Full Name">
+                    </div>
+
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input name="email" id="email" type="email" placeholder="Email">
+                        </div>
+                        <div class="input-group">
+                            <label for="Phone-num">Phone Number</label>
+                            <input name="number" id="Phone-num" type="text" placeholder="Number">
+                        </div>
+                    </div>
+
+                    <div class="row2">
+                        <div class="input-group">
+                            <label for="subject">Subject</label>
+                            <input name="subject" id="subject" type="text" placeholder="Subject">
+                        </div>
+                        <div class="input-group">
+                            <label for="Company">Company/Organization</label>
+                            <input type="text" id="Company" name="company">
+                        </div>
+                    </div>
+
+                    <p>What services can we provide you?</p>
+
+                    <div class="checkboxes">
+                        <label>
+                            <input type="checkbox" name="services" value="Sheet Pilling Works">
+                            Sheet Pilling Works
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="services" value="Excavation">
+                            Excavation
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="services" value="Demolition">
+                            Demolition
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="services" value="Hauling">
+                            Hauling
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="services" value="Pile Hacking">
+                            Pile Hacking
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="services" value="Bored Pilling Works">
+                            Bored Pilling Works
+                        </label>
+                        
+                        <label>
+                            <input type="checkbox" name="services" value="Heavy Equipment Rentals">
+                            Heavy Equipment Rentals
+                        </label>
+                    </div>
+
+                    <div class="input-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                    </div>
+
+
+                    <button type="submit">SUBMIT NOW</button>
+                </form>
+            </div>
+
+           <section class="sub-footer">
+        <div class="footer-tint">
+            <div class="sub-footer-content">
+                <img src="" alt="" class="logo-here">
+                <br><br><h5>Head Office</h5><br>
+                <p>Block 2 Lot 5 St.Michael Homes, Bagbag Novaliches Quezon City</p>
+                <br><h5>Valenzuela Branch</h5><br> 
+                <p>Liwanag Compound, Mapulang Lupa Valenzuela City</p><br><br>
+                <h5>Telephone</h5> <p>(02) 8984-1533</p><br>
+                <h5>Email</h5> <p>deligeroconstruction_22@yahoo.com</p>
+                <br><br><h5>Business Hours</h5><br>
+                <p>Monday to Saturday 8:00 AM - 5:00 PM</p>
+            </div>
+
+            <div class="sub-footer-content">
+                <h5>About us</h5>
+                <p class="aboutUs-descp"><br><br>At Deligero Construction, we're more than just builders – we're partners in bringing your dreams to life.<br> 
+                    For years, our team has been helping businesses across the community create spaces that matter.<br>  
+                    Whether it's your first home, expanding your business, or tackling that renovation you've been planning,<br>  
+                    we understand that every project tells a story. That's why we take the time to listen, plan carefully,<br>
+                    and build with the care your project deserves.</p>
+                <li></li>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="aboutUs">
+        <div class="copyright">
+            <p>Copyright &copy; 2025 Deligero Construction. All Right Reserved.</p>
+        </div>
+
+        <div class="icons">
+            <a href=""><i class='bx bxl-facebook'></i></a>
+            <a href=""><i class='bx bxl-instagram' ></i></a>
+            <a href=""><i class='bx bxl-gmail' ></i></a>
+        </div>
+    </section>
+    <script>
+        const form = document.getElementById('GetStartedQuote');
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            console.log('Form submitted');
+
+        const formData = new FormData(form);
+
+        const data = {};
+        formData.forEach((value, key) => {
+        // data[key] = value;
+            if (data[key]) {
+                if (Array.isArray(data[key])) {
+                    data[key].push(value);
+                } else {
+                    data[key] = [data[key], value];
+                }
+            } else {
+                data[key] = value;
+            }
+        });
+
+        try {
+            await fetch('https://script.google.com/macros/s/AKfycbz39qXoFiq35z7fW5uymr-Y6F3-WTyajWt5kqDTxpvkvTQbMjX9zJ27zXVP-xBJxdaK/exec', {
+            method: 'POST',
+            body: JSON.stringify(data),
+            mode: 'no-cors',
+            headers: { 'Content-Type': 'application/json' }
+        });
+
+        alert('Your message was submitted successfully!');
+        form.reset();
+        } catch (error) {
+            alert('There was an error. Please try again.');
+            console.error(error);
+        }
+    });
+    </script>
+</body>
+</html>
