@@ -371,6 +371,21 @@ header h2 {
     gap: 1rem;
   }
 
+  .sub-footer-content {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+ }
+
+  #navbar_logo img{
+    margin: 0;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    margin-bottom: -4.5rem;
+    height: auto;
+    width: 70%;
+ }
+
 }
 
 /* tablets view */

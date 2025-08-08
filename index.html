@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="google-site-verification" content="9pKwClWQjs9Mmbs5Ub4tKoNCxFJMNxEJ5UvqcWiLHio" />
     <meta name="description" content="Reliable construction company offering excavation, demolition, heavy equipment rentals, and more! Get a free quote today!">
     <meta name="keywords" content="construction, excavation, demolition, equipment rentals, bored piling, Manila contractors">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta property="og:title" content="Top Construction Company in [Your City]" />
+    <meta property="og:title" content="Your Construction Solution | Deligero Construction" />
     <meta property="og:description" content="We provide expert construction services including excavation, hauling, sheet and bored piling, and more!" />
-    <!-- <meta property="og:image" content="https://yourwebsite.com/images/thumbnail.jpg" />
-    <meta property="og:url" content="https://yourwebsite.com/" />
+    <meta property="og:image" content="https://www.deligeroconstruction.com/Images/pexels-asphotograpy-224924.jpg"/>
+    <!-- <meta property="og:url" content="https://yourwebsite.com/" />
     <meta property="og:type" content="website" /> -->
     <title>Deligero Construction</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/40x40.png">
 </head>
 <body>
     <section class="bg-img">
@@ -146,252 +148,434 @@
                     <div class="slider">
                         <!-- latest  -->
                         <div class="section-container" id="slide-1">
-                            <div class="pics" id="gallery1">
-                                <h5>Checksteel Fabrication & Development Corporation</h5>
-                                <p>Bundagul Pampanga</p>
+                            <div class="pics" id="gallery1" onclick="openModal('Checksteel Fabrication & Development Corporation', 'Bundagul Pampanga', 'checksteel1')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Bundagul Pampanga</h5>
+                                    <!-- <p>Checksteel Fabrication & Development Corporation</p> -->
+                                </div>
                             </div>
-                            <div class="pics" id="gallery2">
-                                <h5>Checksteel Fabrication & Development Corporation</h5>
-                                <p>Bundagul Pampanga</p>
+                            <div class="pics" id="gallery2" onclick="openModal('Checksteel Fabrication & Development Corporation', 'Bundagul Pampanga', 'checksteel2')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Checksteel Fabrication & Development Corporation</h5>
+                                    <p>Bundagul Pampanga</p>
+                                </div>
                             </div>
-                            <div class="pics" id="gallery3">
-                                <h5>Astral Construction</h5>
-                                <p>Earthworks (Road Repair) Silang Cavite</p>
+                            <div class="pics" id="gallery3" onclick="openModal('Astral Construction', 'Earthworks (Road Repair) Silang Cavite', 'astral')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Astral Construction</h5>
+                                    <p>Earthworks (Road Repair) Silang Cavite</p>
+                                </div>
                             </div>
-                            <div class="pics" id="gallery4">
-                                <h5>Doctors Medical Center R.C. Ramos Construction Corp.</h5>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                            <div class="pics" id="gallery4" onclick="openModal('Doctors Medical Center R.C. Ramos Construction Corp.', '', 'medical')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Doctors Medical Center R.C. Ramos Construction Corp.</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                 </div>
                             </div>
-                            <div class="pics" id="gallery5">
-                                <h5>Anta Construction Corp. </h5>
-                                <p>URC Conveyor Bridge</p>
+                            <div class="pics" id="gallery5" onclick="openModal('Anta Construction Corp.', 'URC Conveyor Bridge', 'anta')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Anta Construction Corp. </h5>
+                                    <p>URC Conveyor Bridge</p>
+                                </div>
                             </div>
-                            <div class="pics" id="gallery6">
-                                <h5>Philcris Builders Inc.</h5>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                            <div class="pics" id="gallery6" onclick="openModal('Philcris Builders Inc.', '', 'philcris1')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Philcris Builders Inc.</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                 </div>
                             </div>
-                            <div class="pics" id="gallery7">
-                                <h5>Philcris Builders Inc.</h5>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                            <div class="pics" id="gallery7" onclick="openModal('Philcris Builders Inc.', '', 'philcris2')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Philcris Builders Inc.</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                 </div>
                             </div>
-                            <div class="pics" id="gallery8">
-                                <h5>Hagonoy Project</h5>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                            <div class="pics" id="gallery8" onclick="openModal('Hagonoy Project', '', 'hagonoy')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Hagonoy Project</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                 </div>
                             </div>
                         </div>
                         <!-- Sheet Pile -->
                         <div class="section-container" id="slide-2">
-                            <div class="pics" id="gallery9">
-                                <h5>Hagonoy Project</h5>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                            <div class="pics" id="gallery9" onclick="openModal('Hagonoy Project', '', 'hagonoy')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Hagonoy Project</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                 </div>
                             </div>
-                            <div class="pics" id="gallery10">
-                                <h5>Hagonoy Project</h5>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                            <!-- <div class="pics" id="gallery10">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Hagonoy Project</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                 </div>
                             </div>
-                            <!-- <div class="pics" id="gallery11">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <div class="pics" id="gallery11">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery12">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery13">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery14">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery15">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery16">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div> -->
                         </div>
                         <!-- Excavation -->
                         <div class="section-container" id="slide-3">
-                            <div class="pics" id="gallery17">
-                                <h5>Philcris Builders Inc.</h5>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                            <div class="pics" id="gallery17" onclick="openModal('Philcris Builders Inc.', '', 'philcris1')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Philcris Builders Inc.</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                 </div>
                             </div>
                             <div class="pics" id="gallery18">
-                                <h5>Philcris Builders Inc.</h5>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Philcris Builders Inc.</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                 </div>
                             </div>
-                            <div class="pics" id="gallery19">
-                                <h5>Checksteel Fabrication & Development Corporation</h5>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                            <div class="pics" id="gallery19" onclick="openModal('Checksteel Fabrication & Development Corporation', '', 'checksteel3')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Checksteel Fabrication & Development Corporation</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                 </div>
                             </div>
-                            <!-- <div class="pics" id="gallery20">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                            </div> -->
-                            <!-- <div class="pics" id="gallery21">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <div class="pics" id="gallery20" onclick="openModal('Checksteel Fabrication & Development Corporation', 'Bundagul Pampanga', 'checksteel1')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Bundagul</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                </div>
                             </div>
-                            <div class="pics" id="gallery22">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <div class="pics" id="gallery21">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Bundagul</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                </div>
                             </div>
-                            <div class="pics" id="gallery23">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <div class="pics" id="gallery22" onclick="openModal('Earthworks (Road Repair) Silang Cavite', 'Client: Astral Construction', 'astral')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Silang Cavite (Road Repair)</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                </div>
+                            </div>
+                            <!-- <div class="pics" id="gallery23">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery24">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div> -->
                         </div>
                         <!-- Demolition -->
                         <div class="section-container" id="slide-4">
                             <div class="pics" id="gallery25">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery26">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery27">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery28">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery29">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery30">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                               <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery31">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery32">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                               <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                         </div>
                         <!-- Hauling -->
                         <div class="section-container" id="slide-5">
                             <div class="pics" id="gallery33">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery34">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery35">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery36">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery37">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery38">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                               <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery39">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery40">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                               <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                         </div>
                         <!-- Bored Pile -->
                         <div class="section-container" id="slide-6">
-                            <div class="pics" id="gallery41">
-                                <h5>Doctors Medical Center R.C. Ramos Construction Corp.</h5>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                            <div class="pics" id="gallery41" onclick="openModal('Doctors Medical Center R.C. Ramos Construction Corp.', '', 'medical')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Doctors Medical Center R.C. Ramos Construction Corp.</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                 </div>
                             </div>
-                            <div class="pics" id="gallery42">
-                                <h5>Anta Construction Corp.</h5>
-                                <p>URC Conveyor Bridge</p>
+                            <div class="pics" id="gallery42" onclick="openModal('Anta Construction Corp.', 'URC Conveyor Bridge', 'anta')">
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Anta Construction Corp.</h5>
+                                    <p>URC Conveyor Bridge</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery43">
-                                <h5>Rayman  Builders Inc.</h5>
-                                <p>Malabon City Tanza Pumping Station, Navotas City</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Rayman  Builders Inc.</h5>
+                                    <p>Malabon City Tanza Pumping Station, Navotas City</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery44">
-                                <h5>Unitop</h5>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Unitop</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                 </div>
                             </div>
                             <div class="pics" id="gallery45">
-                                <h5>Philippine Normal University - Taft Ave.</h5>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Philippine Normal University - Taft Ave.</h5>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                                 </div>
                             </div>
                             <div class="pics" id="gallery46">
-                                <h5>Rayman  Builders Inc.</h5>
-                                <p>Malabon City Tanza Pumping Station, Navotas City</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Rayman  Builders Inc.</h5>
+                                    <p>Malabon City Tanza Pumping Station, Navotas City</p>
+                                </div>
                             </div>
                             <!-- <div class="pics" id="gallery47">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery48">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div> -->
                         </div>
                         <!-- Pile Hacking -->
                         <div class="section-container" id="slide-7">
                             <div class="pics" id="gallery49">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery50">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery51">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery52">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery53">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                               <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery54">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                               <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery55">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                             <div class="pics" id="gallery56">
-                                <h5>Blank</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="pics-bg"></div>
+                                <div class="pics-overlay">
+                                    <h5>Blank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+        </div>
+        
+        <div id="projectModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <h3 id="modalTitle">this is h3</h3>
+                    <p id="modalDescription">this is p</p>
+                </div>
+                <div class="modal-gallery" id="modalGallery">
+                <!-- Gallery images will be inserted here -->
+                 
+                </div>
+            </div>
         </div>
     </main>
     
@@ -448,4 +632,6 @@
     </section>
     <script src ="app.js"></script>
 </body>
+
 </html>
+
