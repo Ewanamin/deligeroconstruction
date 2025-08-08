@@ -15,39 +15,35 @@
 
 const projectData = {
     checksteel1: [
-        'https://via.placeholder.com/600x400/4A90E2/FFFFFF?text=Checksteel+Image+1',
-        'https://via.placeholder.com/600x400/4A90E2/FFFFFF?text=Checksteel+Image+2',
-        'https://via.placeholder.com/600x400/4A90E2/FFFFFF?text=Checksteel+Image+3',
-        'https://via.placeholder.com/600x400/4A90E2/FFFFFF?text=Checksteel+Image+4'
+        'Images/Excavation/1440x1080\ \(3\).png',
+        'Images/Excavation/1440x1080\ \(4\).png'
     ],
     checksteel2: [
-        'https://via.placeholder.com/600x400/7ED321/FFFFFF?text=Checksteel+2+Image+1',
-        'https://via.placeholder.com/600x400/7ED321/FFFFFF?text=Checksteel+2+Image+2',
-        'https://via.placeholder.com/600x400/7ED321/FFFFFF?text=Checksteel+2+Image+3'
+        
     ],
     astral: [
-        'https://via.placeholder.com/600x400/F5A623/FFFFFF?text=Astral+Image+1',
-        'https://via.placeholder.com/600x400/F5A623/FFFFFF?text=Astral+Image+2'
+    
     ],
     medical: [
-        'https://via.placeholder.com/600x400/BD10E0/FFFFFF?text=Medical+Image+1',
-        'https://via.placeholder.com/600x400/BD10E0/FFFFFF?text=Medical+Image+2',
-        'https://via.placeholder.com/600x400/BD10E0/FFFFFF?text=Medical+Image+3'
+        
     ],
     anta: [
-        'https://via.placeholder.com/600x400/B8E986/FFFFFF?text=URC+Bridge+1',
-        'https://via.placeholder.com/600x400/B8E986/FFFFFF?text=URC+Bridge+2'
+        
     ],
     philcris1: [
         'Images/Excavation/1440x1080\ \(1\).png',
         'Images/Excavation/1440x1080.png'
     ],
     philcris2: [
-        'https://via.placeholder.com/600x400/D0021B/FFFFFF?text=Philcris+2+Image+1'
+        
     ],
     hagonoy: [
         'Images/SheetPile/custom\ sizes\ \(1\).png',
         'Images/SheetPile/custom\ sizes.png'
+    ],
+    pumpingStation: [
+        'Images/BoredPile/1440x1080\ \(7\).png',
+        'Images/BoredPile/810x1080\ \(2\).png'
     ]
 };
 
