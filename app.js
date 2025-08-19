@@ -1,18 +1,3 @@
-// const links = document.querySelectorAll(".navigation a");
-
-// links.forEach(link => {
-//     link.addEventListener('click', function() {
-//         links.forEach(l => l.classList.remove("active"));
-
-//         link.classList.add("active");
-//     });
-
-//     if (link.href === window.location.href) {
-//         link.classList.add("active");
-//     }
-// });
-
-
 const projectData = {
     checksteel1: [
         'Images/Excavation/1440x1080\ \(3\).png',
@@ -44,27 +29,46 @@ const projectData = {
     pumpingStation: [
         'Images/BoredPile/1440x1080\ \(7\).png',
         'Images/BoredPile/810x1080\ \(2\).png'
+    ],
+    PrimehomesDemolition: [
+        'Images/Demolition/Primehomes1.jpg',
+        'Images/Demolition/Primehomes2.jpg',
+        'Images/Demolition/Primehomes3.jpg',
+        'Images/Demolition/Primehomes4.jpg',
+        'Images/Demolition/Primehomes5.jpg',
+        'Images/Demolition/Primehomes6.jpg',
+        'Images/Demolition/Primehomes7.jpg',
+        'Images/Demolition/Primehomes8.jpg',
+        'Images/Demolition/Primehomes9.jpg',
+        'Images/Demolition/Primehomes10.jpg'
+    ], 
+    PrimehomesHauling: [
+        'Images/Hauling/PrimehomesHauling2.jpg',
+        'Images/Hauling/PrimehomesHauling.jpg',
+        'Images/Hauling/PrimehomesHauling3.jpg'
+    ],
+    MakatiDemolition: [
+        'Images/Demolition/Makati1.jpg',
+        'Images/Demolition/Makati2.jpg',
+        'Images/Demolition/Makati3.jpg',
+        'Images/Demolition/Makati4.jpg',
+        'Images/Demolition/Makati5.jpg'
     ]
 };
 
-// Navigation functionality
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
                 
-        // Remove active class from all links
         document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
                 
-        // Add active class to clicked link
         this.classList.add('active');
                 
-        // Scroll to target section
         const targetId = this.getAttribute('href');
         document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' });
     });
 });
 
-// Modal functions
 function openModal(title, description, projectKey) {
     const modal = document.getElementById('projectModal');
     const modalTitle = document.getElementById('modalTitle');
@@ -74,10 +78,8 @@ function openModal(title, description, projectKey) {
     modalTitle.textContent = title;
     modalDescription.textContent = description;
             
-    // Clear previous gallery
     modalGallery.innerHTML = '';
             
-    // Add images to gallery
     const images = projectData[projectKey] || [];
     images.forEach(imageSrc => {
         const img = document.createElement('img');
